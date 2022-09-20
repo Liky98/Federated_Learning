@@ -1,4 +1,4 @@
-# Week2
+# Week3
 
 202245232 이기훈
 
@@ -32,7 +32,7 @@ class Net(nn.Module):
 
 - 데이터셋 정보
 
-![Untitled](Untitled%203.png)
+![Untitled](git/Untitled 3.png)
 
 10개의 class
 
@@ -247,7 +247,7 @@ INFO flower 2022-09-20 17:15:11,120 | app.py:183 | app_fit: metrics_centralized 
 
 - Dataset 정보
 
-![Untitled](Untitled%204.png)
+![Untitled](git/Untitled 4.png)
 
 - Model, Dataset class code
 
@@ -345,11 +345,11 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         return trainloader, testloader
 ```
 
-![Untitled](Untitled%205.png)
+![Untitled](git/Untitled 5.png)
 
 (1) User 데이터 같은 경우에는 100개가 있고,
 
-![Untitled](Untitled%206.png)
+![Untitled](git/Untitled 6.png)
 
 (2) 각 User에 대한 User_data 값이 들어있음.
 
@@ -404,7 +404,7 @@ accuracy : 0.041666666666666664
 
 즉, 분산학습과는 다름. 데이터 유출 없이 학습 가능한 **완전 탈중앙 학습**임.
 
-![Untitled](Untitled%207.png)
+![Untitled](git/Untitled 7.png)
 
 기존 코드 → 연합학습 코드로 변경
 
