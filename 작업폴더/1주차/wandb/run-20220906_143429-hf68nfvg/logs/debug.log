@@ -1,0 +1,4 @@
+2022-09-06 14:34:29,365 INFO    MainThread:14908 [wandb_setup.py:_flush():76] Configure stats pid to 14908
+2022-09-06 14:34:29,365 INFO    MainThread:14908 [wandb_setup.py:_flush():76] Loading settings from C:\Users\LeeKihoon\.config\wandb\settings
+2022-09-06 14:34:29,365 INFO    MainThread:14908 [wandb_setup.py:_flush():76] Loading settings from C:\Users\LeeKihoon\Federated_Learning\±¤±â1ÁÖÂ÷\wandb\settings
+2022-09-06 14:34:29,366 INFO    MainThread:14908 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'_require_service': 'True'}

@@ -1,0 +1,53 @@
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Train] Epoch: 1/5: 100%|██████████| 656/656 [00:31<00:00, 20.60batch/s, accuracy=0.981, loss=0.155]
+Traceback (most recent call last):
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\code.py", line 90, in runcode
+    exec(code, self.locals)
+  File "<input>", line 1, in <module>
+  File "C:\Program Files\JetBrains\PyCharm 2022.2.1\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm 2022.2.1\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:/Users/LeeKihoon/Federated_Learning/광기1주차/Homework.py", line 98, in <module>
+    save_checkpoint(model, f'best_model/[ep{best_epoch}_{best_accuracy:0.6f}].pth')
+  File "C:/Users/LeeKihoon/Federated_Learning/광기1주차/Homework.py", line 54, in save_checkpoint
+    torch.save(model, filename)
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\site-packages\torch\serialization.py", line 376, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'best_model/[ep1_0.981373].pth'
+Traceback (most recent call last):
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\code.py", line 90, in runcode
+    exec(code, self.locals)
+  File "<input>", line 1, in <module>
+  File "C:\Program Files\JetBrains\PyCharm 2022.2.1\plugins\python\helpers\pydev\_pydev_bundle\pydev_umd.py", line 198, in runfile
+    pydev_imports.execfile(filename, global_vars, local_vars)  # execute the script
+  File "C:\Program Files\JetBrains\PyCharm 2022.2.1\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "C:/Users/LeeKihoon/Federated_Learning/광기1주차/Homework.py", line 98, in <module>
+    save_checkpoint(model, f'best_model/[ep{best_epoch}_{best_accuracy:0.6f}].pth')
+  File "C:/Users/LeeKihoon/Federated_Learning/광기1주차/Homework.py", line 54, in save_checkpoint
+    torch.save(model, filename)
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\site-packages\torch\serialization.py", line 376, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "C:\Users\LeeKihoon\anaconda3\envs\FL\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))

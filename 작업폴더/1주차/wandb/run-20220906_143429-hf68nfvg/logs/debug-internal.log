@@ -1,0 +1,4 @@
+2022-09-06 14:34:29,384 INFO    StreamThr :27512 [internal.py:wandb_internal():90] W&B internal server running at pid: 27512, started at: 2022-09-06 14:34:29.383141
+2022-09-06 14:34:29,385 DEBUG   HandlerThread:27512 [handler.py:handle_request():141] handle_request: status
+2022-09-06 14:34:29,388 DEBUG   SenderThread:27512 [sender.py:send_request():316] send_request: status
+2022-09-06 14:34:29,392 DEBUG   SenderThread:27512 [sender.py:send():302] send: header

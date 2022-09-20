@@ -1,0 +1,4 @@
+2022-09-06 16:27:34,404 INFO    StreamThr :16080 [internal.py:wandb_internal():90] W&B internal server running at pid: 16080, started at: 2022-09-06 16:27:34.404113
+2022-09-06 16:27:34,406 DEBUG   HandlerThread:16080 [handler.py:handle_request():141] handle_request: status
+2022-09-06 16:27:34,411 DEBUG   SenderThread:16080 [sender.py:send_request():316] send_request: status
+2022-09-06 16:27:34,417 INFO    WriterThread:16080 [datastore.py:open_for_write():75] open: C:\Users\LeeKihoon\Federated_Learning\±¤±â1ÁÖÂ÷\wandb\run-20220906_162734-xngbwquf\run-xngbwquf.wandb
