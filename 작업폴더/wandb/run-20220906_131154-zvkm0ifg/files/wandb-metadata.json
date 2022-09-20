@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-09-06T04:11:55.274848",
+    "startedAt": "2022-09-06T04:11:54.126917",
+    "docker": null,
+    "gpu": "NVIDIA TITAN RTX",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:/Users/LeeKihoon/Federated_Learning/wandb_test.py",
+    "codePath": "wandb_test.py",
+    "host": "DESKTOP-F8NE3O8",
+    "username": "LeeKihoon",
+    "executable": "C:\\Users\\LeeKihoon\\anaconda3\\envs\\Federated_Learning\\python.exe"
+}
